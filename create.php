@@ -27,7 +27,7 @@
                     'message' => 'Data inserted Successfully');
             }
             else{
-                $data = array(
+                $data = array(   
                     'status' => 2,
                     'message' => 'Data Not Inserted');
             }
