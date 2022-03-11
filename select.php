@@ -10,10 +10,10 @@
     $pass = $_REQUEST['key'];
     if($_REQUEST['email'] != '' && $_REQUEST['password'] != '')
     {
-        $email = $_REQUEST['email'];
+        $email = $_REQUEST['email'];   
         $password = $_REQUEST['password'];
     }
-     echo 'hiii';
+    
     $sql = "select * from api_login where uid = '".$user."' and vkey = '".$pass."' ";
     $result = mysqli_query($conn,$sql);
     $row = mysqli_num_rows($result);
