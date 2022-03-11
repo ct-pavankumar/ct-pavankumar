@@ -10,7 +10,7 @@
     $pass = $_REQUEST['key'];
     if($_REQUEST['email'] != '' && $_REQUEST['password'] != '')
     {
-        $email = $_REQUEST['email'];
+        $email = $_REQUEST['email'];   
         $password = $_REQUEST['password'];
     }
     
