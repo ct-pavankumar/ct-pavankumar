@@ -11,6 +11,6 @@ if($conn) {
 	// echo 'success';
 }else {
 	echo 'not connected';
-}
+} 
 
 ?>
